@@ -1,0 +1,34 @@
+.container{
+	
+	width: 1000px;
+	height:600px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	position: relative; 
+	background: url("../images/background-image.jpg") repeat;
+}
+
+div.bird {
+	position: absolute;
+	z-index: 1;
+	background: url("../images/bird.png");
+	border-radius: 4px;
+}
+div.Obstacle{
+	position: absolute;
+	background:url("../images/pipe.png") repeat;
+}
+div.gameOver{
+	position: absolute;
+	z-index: 5;
+	opacity: 0.9;
+	font-weight: bold;
+	font-size: 16px;
+}
+.reset{
+	position: absolute;
+	z-index: 1;
+
+}
